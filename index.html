@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Stand Selecci&oacute;n Volleyball DSV - Fiesta de la Chilenidad - 6 Septiembre 2024 - M&eacute;todos de Pago</title>
+    <title>KiosQuinta - 28 Septiembre 2024 - M&eacute;todos de Pago</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,9 +19,12 @@
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            background-image: url('logo.png');
+            background-size: contain; /* Adjust size to fit */
+            background-repeat: no-repeat; /* Prevent repeating */
+            background-position: center; /* Center the logo */
             z-index: -1;
-            opacity: 0;
+            opacity: 1; /* Make it fully visible */
             transition: opacity 0.5s ease-in-out;
         }
         .container {
@@ -82,18 +85,17 @@
     <div class="container">
         <div class="column">
             <div class="event-info">
-                <h1>Stand Selecci&oacute;n Volleyball DSV</h1>
-                <h2>Fiesta de la Chilenidad</h2>
-                <h2>6 Septiembre 2024</h2>
+                <h1>KiosQuinta</h1>
+                <h2>28 Septiembre 2024</h2>
             </div>
             <div class="payment-methods">
                 <h2>M&eacute;todos de Pago:</h2>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Nombre: Flavia Cambiaso</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Rut: 10683252-8</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Banco: BCI</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Tipo Cuenta: Vista</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Número Cuenta: 777910683252</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Email: fcambiaso@cambiaso.cl</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Nombre: MARIA JOSE VARGAS PEREZ</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Rut: 15.125.484-5</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Banco: Bci / Banco Crédito e Inversiones</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Tipo Cuenta: Cuenta Vista</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Número Cuenta: 777015125484</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Email: majovape@gmail.com</p>
                 <br>
                 <div style="text-align: center;">
                     <button class="copy-button" onclick="copyToClipboard()">Copiar datos de transferencia</button>
@@ -105,12 +107,12 @@
     <script>
         function copyToClipboard() {
             const paymentInfo = `
-Nombre: Flavia Cambiaso
-Rut: 10683252-8
-Banco: BCI
-Tipo Cuenta: Vista
-Número Cuenta: 777910683252
-Email: fcambiaso@cambiaso.cl
+Nombre: MARIA JOSE VARGAS PEREZ
+Rut: 15.125.484-5
+Banco: Bci / Banco Crédito e Inversiones
+Tipo Cuenta: Cuenta Vista
+Número Cuenta: 777015125484
+Email: majovape@gmail.com
             `.trim();
 
             navigator.clipboard.writeText(paymentInfo).then(() => {
